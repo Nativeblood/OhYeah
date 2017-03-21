@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                python2.7 --version
+                bash 'python2.7 --version'
             }
         }
     }
